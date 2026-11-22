@@ -1,0 +1,20 @@
+{
+  "name": "sailing-auto-judge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "帆船赛自动裁判系统 — 基于世界帆联竞赛规则(RRS)的实时判罚引擎与回放申诉平台",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "perf": "vitest run perf -t"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}
